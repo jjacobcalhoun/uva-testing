@@ -1,0 +1,46 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://jjacobcalhoun.github.io/uva-testing/audio-stuff/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "audio-stuff" ] },
+    "homepage": [
+      {
+        "id": "https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59222",
+        "type": "Text",
+        "label": { "en": [ "audio-stuff" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "2",
+        "type": "Agent",
+        "label": { "en": [ "1" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://jjacobcalhoun.github.io/uva-testing/audio-stuff/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 2569.0,
+        "items": [
+          {
+            "id": "https://jjacobcalhoun.github.io/uva-testing/audio-stuff/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://jjacobcalhoun.github.io/uva-testing/audio-stuff/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "",
+                    "duration": 2569.0
+                },
+                "target": "https://jjacobcalhoun.github.io/uva-testing/audio-stuff/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
